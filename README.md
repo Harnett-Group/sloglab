@@ -1,7 +1,7 @@
 # Serial Logger and Labeler (SLogLab)
 Version: 0.1.0
 
-[](screenshots/screencap.gif)
+![](screenshots/screencap.gif)
 
 ## Major Requirements
 Python packages:
