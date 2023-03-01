@@ -155,7 +155,7 @@ class SerialHelper:
 
 
 class SLogLabGui(QtWidgets.QMainWindow, SerialHelper):
-    def __init__(self, signal_count=3, plot_length=1000, sample=False, *args, **kwargs):
+    def __init__(self, plot_length=1000, sample=False, *args, **kwargs):
         """
         Initialize the GUI
         :param signal_count:
@@ -173,7 +173,7 @@ class SLogLabGui(QtWidgets.QMainWindow, SerialHelper):
         self.capture_thread = SerialCaptureThread()
         self.capturing = False
         self.port = None
-        self.signal_count = signal_count
+        self.signal_count = 0
         self.plot_length = plot_length
         self.data = None
 
